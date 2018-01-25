@@ -14,7 +14,9 @@ Controller::Controller() {
 
 void Controller::start(){
 	ConsoleOutput console;
+	Arrays array;
 	console.start();
+	array.start();
 
 }
 

@@ -9,7 +9,8 @@
 #define SRC_CONTROLLER_CONTROLLER_H_
 
 #include <iostream>
-#include "ConsoleOutput.h"
+#include "../Model/ConsoleOutput.h"
+#include "../Model/Arrays.h"
 
 using namespace std;
 
