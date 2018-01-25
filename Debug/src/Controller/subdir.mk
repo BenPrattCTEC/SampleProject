@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/Controller/ConsoleOutput.cpp \
 ../src/Controller/Controller.cpp \
 ../src/Controller/Main.cpp 
 
 OBJS += \
+./src/Controller/ConsoleOutput.o \
 ./src/Controller/Controller.o \
 ./src/Controller/Main.o 
 
 CPP_DEPS += \
+./src/Controller/ConsoleOutput.d \
 ./src/Controller/Controller.d \
 ./src/Controller/Main.d 
 

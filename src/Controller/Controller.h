@@ -9,6 +9,7 @@
 #define SRC_CONTROLLER_CONTROLLER_H_
 
 #include <iostream>
+#include "ConsoleOutput.h"
 
 using namespace std;
 

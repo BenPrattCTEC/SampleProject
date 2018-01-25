@@ -13,7 +13,9 @@ Controller::Controller() {
 }
 
 void Controller::start(){
-	cout << "I Work" << endl;
+	ConsoleOutput console;
+	console.start();
+
 }
 
 Controller::~Controller() {
