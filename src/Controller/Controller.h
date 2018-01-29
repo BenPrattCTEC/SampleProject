@@ -11,6 +11,7 @@
 #include <iostream>
 #include "../Model/ConsoleOutput.h"
 #include "../Model/Arrays.h"
+#include "../Model/VectorAssignment.h"
 
 using namespace std;
 

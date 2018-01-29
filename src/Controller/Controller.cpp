@@ -15,8 +15,11 @@ Controller::Controller() {
 void Controller::start(){
 	ConsoleOutput console;
 	Arrays array;
+	VectorAssignment vectors;
 	console.start();
 	array.start();
+	vectors.start();
+
 
 }
 
